@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: rgb(20, 228, 210);
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+p{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+body {
+    
+    background-image: url('фон/123.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+iframe{
+    margin: 0 auto;
+    display: block;
+}
+.header{
+    position: fixed;
+}
+.header ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.header li a{
+    color: rgb(145, 137, 137);
+}
+.header li:hover{
+    transform: scale(1.2);
+}
+li {
+    list-style-type: none;
+}
+a { 
+    text-decoration: none;
+}
+
+   
